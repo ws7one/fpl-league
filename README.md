@@ -22,7 +22,7 @@ Make sure you have `python` installed in your system
 
 Install `pip` and then `requests`
 
-pip is you library manager and requests is the library you will need to run API calls
+**pip is you library manager and requests is the library you will need to run API calls**
 
 ### pip installation
 
