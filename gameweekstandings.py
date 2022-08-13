@@ -181,6 +181,7 @@ while (True):
         totalNumberOfPlayersCount))
         
     for team in teams:
+        print (team.playerName + ": ")
         points, hits, chipused = getParticipantDetailedInfoForGameweek(team.teamId, GWNumber)   
         print("Step 1 done")
         goalsConceded, goalsScored = getGoalDetailsForTeam(team.teamId, GWNumber,(chipused=="bboost")) 
